@@ -1,0 +1,20 @@
+/* reset */
+body {
+  margin: 0px;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  /* já que defini os valores de medida no html aq precisocolocar a tag de uto pois esmaca se n colocar */
+  height: auto;
+  display: block;
+}
