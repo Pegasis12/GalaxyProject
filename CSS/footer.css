@@ -11,10 +11,16 @@
 .footer-lista {
   font-size: 1.3rem;
   display: grid;
-  gap: 15px;
+  gap: 30px;
+  position: relative;
 }
 
 .copy {
-  margin-top: 70px;
+  margin-top: 100px;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #686868;
 }
