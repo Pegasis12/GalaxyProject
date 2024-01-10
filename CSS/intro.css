@@ -1,5 +1,27 @@
 .intro {
-  background: url("/Img/fundo.jpg") no-repeat center;
-  background-position: center;
+  background: url("../Img/fundo.jpg") no-repeat center;
   background-size: cover;
+}
+
+.intro-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 600px;
+  display: grid;
+  justify-content: center;
+}
+
+.intro-texto {
+  place-self: center;
+  text-align: center;
+}
+
+.intro-titulo {
+  font-size: 1rem;
+}
+
+.intro-paragrafo {
+  margin-top: 5px;
+  font-size: 0.95rem;
+  max-width: 40ch;
 }

@@ -1,29 +1,17 @@
-.header {
-  /* serve para da tamanho ao site para se estiver sendo usado em um monitor muito maior ele não crescer */
-  max-width: 1200px;
-  /* espaço entre as bordas */
-  padding: 40px 20px;
-  /* serve para sempre alinhar o site todo ao meio independete do tamnho do monitor */
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .header-menu {
   display: flex;
-  gap: 0.5rem;
   flex-wrap: wrap;
-  justify-content: center;
+  place-content: space-between;
+  padding: 20px;
 }
 
 .header-menu a {
-  font-size: 1.125rem;
-  font-weight: 600;
-  line-height: 1.3;
-  /* colocando padding para aumentar a area de contato do click */
-  padding: 10px 20px;
   text-decoration: none;
-  color: #ffffff;
-  display: block;
+  color: #fff;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }

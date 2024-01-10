@@ -3,6 +3,7 @@ body {
   margin: 0px;
   background: #0f0f0f;
   color: #fff;
+  font-family: "Fira Sans", Arial, sans-serif;
 }
 
 h1,
@@ -12,6 +13,7 @@ p {
   margin: 0px;
 }
 
+/* imagem geral */
 img {
   max-width: 100%;
   /* já que defini os valores de medida no html aq precisocolocar a tag de uto pois esmaca se n colocar */
@@ -19,8 +21,17 @@ img {
   display: block;
 }
 
-ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
+.cinza {
+  color: #686868;
+}
+
+.dividir{
+  width: 75px;
+}
+
+.work-texto {
+  margin-top: 40px;
+  display: grid;
+  gap: 15px;
+  text-align: center;
 }

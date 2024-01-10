@@ -10,26 +10,78 @@
 
 <body>
   <header class="header">
-    <!-- sempre colocar width e height da imgem dividindo por 2 o valores de medida original, não vai mudar nada, mas por questões de otimização sempre é necesario -->
-    <h2 class="header-titulo">Home</h2>
-    <nav>
-      <ul class="header-menu">
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+    <div class="menu-container">
+      <nav>
+        <ul class="header-menu">
+          <li>
+            <h2><a href="#experiencia">Home</a></h2>
+          </li>
+          <li><a href="#projetos"><img src="./Img/Icon/menuburg.svg" alt=""></a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <section class="intro">
     <div class="intro-container">
-      <h1>Olá, Bem Vindo ao Meu Mundo!</h1>
-      <div class="intro-subtitulo">
-        <p> Transformo conceitos em experiências visuais impactantes.</p>
+      <div class="intro-texto">
+        <div class="intro-titulo">
+          <h1>Olá, Bem Vindo ao Meu Mundo!</h1>
+        </div>
+        <div class="intro-paragrafo">
+          <p>Transformo conceitos em experiências visuais impactantes.</p>
+        </div>
       </div>
     </div>
   </section>
+
+  <section class="work">
+    <div class="work-texto">
+      <h2>Trabalho e Formação</h2>
+      <p class="cinza">Experiência e aprendizado.</p>
+      <hr class="dividir">
+    </div>
+    <div class="work-container">
+      <div class="work-quadro">
+        <div class="work-ico">
+          <img src="./Img/Icon/suitcase 1.svg" alt="">
+        </div>
+        <div class="work-texto-paragrafo">
+          <h2>Grupo hinova - Estágio</h2>
+          <p>Desenvolvimento de landing pages responsivas, assim como na identificação e correção de bugs visuais em websites já existentes.</p>
+        </div>
+        <div class="work-texto-paragrafo">
+          <h2>Assembleia de MG - Estágio</h2>
+          <p>Suporte eficiente a aplicações e sistemas, incluindo software específico para servidores públicos.</p>
+        </div>
+      </div>
+
+      <div class="work-quadro">
+        <div class="work-ico">
+          <img src="./Img/Icon/mortarboard 1.svg" alt="">
+        </div>
+        <div class="work-faculdade">
+          <ul class="work-lista">
+            <li>
+              <h2>Bacharel</h2>
+            </li>
+            <li>
+              <p>Ciência da Computação</p>
+            </li>
+            <li>
+              <p>06/2021 06/2025</p>
+            </li>
+            <li>
+              <p>Universidade - <strong class="cinza">Newton</strong></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
 </body>
 
 </html>

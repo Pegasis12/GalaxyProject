@@ -1,0 +1,45 @@
+.work-container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  width: 250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+}
+
+.work-quadro {
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 250px;
+  display: grid;
+  padding: 30px;
+}
+
+.work-texto-paragrafo {
+  text-align: start;
+  margin-top: 30px;
+  color: #686868;
+}
+
+.work-texto-paragrafo h2 {
+  font-size: 1.25rem;
+}
+
+.work-texto-paragrafo p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.work-lista li {
+  margin-top: 10px;
+  color: #686868;
+}
+
+
+@media (max-width: 800px) {
+  .work-container {
+    grid-template-columns: 1fr;
+  }
+}
