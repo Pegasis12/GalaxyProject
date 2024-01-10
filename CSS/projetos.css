@@ -1,0 +1,35 @@
+.projeto{
+  margin-top: 40px;
+}
+
+.projeto-container {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+}
+
+.imagem {
+  border-radius: 5px;
+  position: relative;
+}
+
+.texto-imagem{
+  display: block;
+  position: absolute;
+  margin: 20px;
+  font-size: 0.70rem;
+}
+
+.imagem-grande{
+  grid-column: 1 / -1;
+}
+
+@media (max-width:800px){
+  .projeto-container{
+    grid-template-columns: 1fr;
+  }
+}

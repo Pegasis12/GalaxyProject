@@ -1,0 +1,28 @@
+.habilidades{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 150px;
+}
+
+.habilidades-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  place-self: center;
+}
+
+.habilidade-item {
+  padding: 30px;
+  border: solid 1px white;
+  border-radius: 30px;
+  display: grid;
+  gap: 10px;
+}
+
+.habilidade-ferramenta{
+  text-align: center;
+  margin-top: 5px;
+}
