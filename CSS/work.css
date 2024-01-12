@@ -5,12 +5,13 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  gap: 70px;
   justify-content: center;
 }
 
 .work-quadro {
   border: 1px solid white;
+  background: #080808;
   border-radius: 15px;
   width: 250px;
   display: grid;

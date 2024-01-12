@@ -29,11 +29,11 @@
 }
 
 .intro-titulo {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .intro-paragrafo {
   margin-top: 5px;
-  font-size: 0.95rem;
+  font-size: 1rem;
   max-width: 40ch;
 }

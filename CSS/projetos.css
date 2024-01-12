@@ -1,4 +1,4 @@
-.projeto{
+.projeto {
   margin-top: 40px;
 }
 
@@ -17,26 +17,26 @@
   position: relative;
 }
 
-.texto-imagem{
+.texto-imagem {
   display: block;
   position: absolute;
   margin: 20px;
-  font-size: 0.70rem;
+  font-size: 0.7rem;
 }
 
-.texto-imagem p{
+.texto-imagem p {
   font-size: 1rem;
 }
 
-.imagem-grande{
+.imagem-grande {
   grid-column: 1 / -1;
 }
 
-@media (max-width:800px){
-  .projeto-container{
+@media (max-width: 800px) {
+  .projeto-container {
     grid-template-columns: 1fr;
   }
-  .texto-imagem p{
+  .texto-imagem p {
     display: none;
   }
 }
