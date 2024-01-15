@@ -37,4 +37,7 @@
 }
 
 @media (max-width: 800px) {
+  .footer-container {
+    width: 300px;
+  }
 }
