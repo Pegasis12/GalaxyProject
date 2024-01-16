@@ -10,9 +10,8 @@
 }
 
 .work-quadro {
-  border: 1px solid white;
   background: #080808;
-  border-radius: 15px;
+  border-radius: 5px;
   width: 250px;
   display: grid;
   padding: 30px;
