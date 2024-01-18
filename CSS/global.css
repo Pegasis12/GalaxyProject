@@ -13,7 +13,7 @@ p {
   margin: 0px;
 }
 
-/* variaveis color */
+/* variaveis */
 :root {
   --fundo: #0f0f0f;
   --quadros: #080808;
@@ -52,6 +52,7 @@ img {
   font-size: var(--fonte-media);
 }
 
+/* responsivo */
 @media (max-width: 800px) {
   .texto-central {
     font-size: var(--fonte-menor);
