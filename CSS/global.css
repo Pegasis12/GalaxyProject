@@ -51,3 +51,12 @@ img {
 .central-p {
   font-size: var(--fonte-media);
 }
+
+@media (max-width: 800px) {
+  .texto-central {
+    font-size: var(--fonte-menor);
+  }
+  .central-p {
+    font-size: var(--fonte-menor);
+  }
+}
