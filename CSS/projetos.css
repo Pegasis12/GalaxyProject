@@ -25,7 +25,7 @@
 }
 
 .texto-imagem p {
-  font-size: 1rem;
+  font-size: var(--fonte-menor);
 }
 
 .imagem-grande {

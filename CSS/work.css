@@ -5,12 +5,12 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 70px;
+  gap: 30px;
   justify-content: center;
 }
 
 .work-quadro {
-  background: #080808;
+  background: var(--quadros);
   border-radius: 5px;
   width: 250px;
   display: grid;
@@ -20,11 +20,11 @@
 .work-texto-paragrafo {
   text-align: start;
   margin-top: 30px;
-  color: #686868;
+  color: var(--texto-cinza);
 }
 
 .work-texto-paragrafo h2 {
-  font-size: 1.25rem;
+  font-size: var(--fonte-media);
 }
 
 .work-texto-paragrafo p {
@@ -34,7 +34,7 @@
 
 .work-lista li {
   margin-top: 10px;
-  color: #686868;
+  color: var(--texto-cinza);
 }
 
 @media (max-width: 800px) {

@@ -1,8 +1,8 @@
 /* reset */
 body {
   margin: 0px;
-  background: #0f0f0f;
-  color: #fff;
+  background: var(--fundo);
+  color: var(--texto);
   font-family: "Fira Sans", Arial, sans-serif;
 }
 
@@ -13,19 +13,30 @@ p {
   margin: 0px;
 }
 
+/* variaveis color */
+:root {
+  --fundo: #0f0f0f;
+  --quadros: #080808;
+  --texto: #fff;
+  --texto-cinza: #686868;
+  --fonte-maior: 1.2rem;
+  --fonte-media: 1.1rem;
+  --fonte-menor: 1rem;
+}
+
 /* imagem geral */
 img {
   max-width: 100%;
-  /* já que defini os valores de medida no html aq precisocolocar a tag de uto pois esmaca se n colocar */
   height: auto;
   display: block;
 }
 
+/* geral */
 .cinza {
-  color: #686868;
+  color: var(--texto-cinza);
 }
 
-.dividir{
+.dividir {
   width: 75px;
 }
 
@@ -34,4 +45,9 @@ img {
   display: grid;
   gap: 15px;
   text-align: center;
+  font-size: var(--fonte-maior);
+}
+
+.central-p {
+  font-size: var(--fonte-media);
 }
